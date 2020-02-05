@@ -1,3 +1,10 @@
+import animal.Animal;
+import animal.Duck;
+import animal.Parrot;
+import stuff.Cannon;
+import stuff.Equipment;
+import stuff.Ladder;
+
 public class Circus {
     private static Animal[] animals = {
             new Duck(),
@@ -36,5 +43,6 @@ public class Circus {
     public static void main(String[] args) {
         makeAnimalsTalk();
         System.out.println("Total value of equipments " + calculateValue(equipments));
+        System.out.println("Total value of animals");
     }
 }

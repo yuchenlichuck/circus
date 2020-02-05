@@ -1,3 +1,7 @@
+package animal;
+
+import animal.Bird;
+
 public class Duck extends Bird {
     @Override
     public String speak() {

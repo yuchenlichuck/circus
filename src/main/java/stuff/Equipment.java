@@ -1,3 +1,5 @@
+package stuff;
+
 public abstract class Equipment {
     protected int purchasePrice;
 
